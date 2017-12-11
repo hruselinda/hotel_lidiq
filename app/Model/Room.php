@@ -9,23 +9,14 @@
 namespace Model;
 
 
-class RoomModel extends BaseModel
+class Room extends Base
 {
-    private $id;
-    private $pic;
-    private $title;
-    private $priceValue;
-    private $priceStamp;
-    private $innerTitle;
-    private $text;
-
-    /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
+    protected $pic;
+    protected $title;
+    protected $priceValue;
+    protected $priceStamp;
+    protected $innerTitle;
+    protected $text;
 
     /**
      * @return mixed

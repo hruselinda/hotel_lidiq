@@ -9,9 +9,8 @@
 namespace Model;
 
 
-class GalleryModel extends BaseModel
+class Gallery extends Base
 {
-    protected $id;
     protected $pic;
     protected $category;
 
@@ -26,14 +25,6 @@ class GalleryModel extends BaseModel
             self::CATEGORY_OUR_GARDEN,
             self::CATEGORY_THE_VIEW
         ];
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
     }
 
     /**

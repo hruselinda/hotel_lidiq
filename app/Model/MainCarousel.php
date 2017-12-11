@@ -9,20 +9,10 @@
 namespace Model;
 
 
-class MainCarouselModel extends BaseModel
+class MainCarousel extends Base
 {
-    private $id;
-    private $pic;
-    private $order;
-
-    /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
-
+    protected $pic;
+    protected $order;
 
     /**
      * @return mixed

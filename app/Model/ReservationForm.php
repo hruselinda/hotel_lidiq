@@ -9,23 +9,14 @@
 namespace Model;
 
 
-class ReservationFormModel extends BaseModel
+class ReservationForm extends Base
 {
-    private $id;
-    private $email;
-    private $roomType;
-    private $checkIn;
-    private $checkOut;
-    private $guestsChildren;
-    private $guestsAdults;
-
-    /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
+    protected $email;
+    protected $roomType;
+    protected $checkIn;
+    protected $checkOut;
+    protected $guestsChildren;
+    protected $guestsAdults;
 
     /**
      * @return mixed

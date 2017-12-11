@@ -9,21 +9,12 @@
 namespace Model;
 
 
-class HotelTabsModel extends BaseModel
+class HotelTabs extends Base
 {
-    private $id;
-    private $label;
-    private $title;
-    private $description;
-    private $pic;
-
-    /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
+    protected $label;
+    protected $title;
+    protected $description;
+    protected $pic;
 
     /**
      * @return mixed

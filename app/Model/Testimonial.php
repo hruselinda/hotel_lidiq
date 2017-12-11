@@ -9,21 +9,12 @@
 namespace Model;
 
 
-class TestimonialModel extends BaseModel
+class Testimonial extends Base
 {
-    protected $id;
     protected $avatar;
     protected $text;
     protected $author;
     protected $sort;
-
-    /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
 
     /**
      * @return mixed

@@ -9,21 +9,13 @@
 namespace Model;
 
 
-class BlogPostModel extends BaseModel
+class BlogPost extends Base
 {
-    private $id;
-    private $pic;
-    private $title;
-    private $descriptionLong;
-    private $descriptionShort;
+    protected $pic;
+    protected $title;
+    protected $descriptionLong;
+    protected $descriptionShort;
 
-    /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
 
     /**
      * @return mixed
